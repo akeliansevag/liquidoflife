@@ -1,4 +1,4 @@
-<div class="flex items-center gap-2">
+<div class="inline-flex items-center gap-2">
     <button class="hover:opacity-80 previous-nav w-[40px] h-[40px] rounded-full flex items-center justify-center bg-primary rotate-180">
         <svg width="28px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>

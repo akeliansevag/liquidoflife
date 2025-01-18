@@ -30,3 +30,38 @@ const productsSlider = new Swiper('#products-slider', {
     }
   }
 });
+
+const clientsSlider = new Swiper('#clients-slider', {
+  autoplay: true,
+  navigation: {
+    prevEl: '#clients-slider-nav button.previous-nav',
+    nextEl: '#clients-slider-nav button.next-nav'
+  },
+  slidesPerView: 2,
+  spaceBetween: 10,
+  loop: true,
+  breakpoints: {
+    768: {
+      slidesPerView: 3 
+    },
+    1024: {
+      slidesPerView: 4
+    }
+  }
+});
+
+const testimonialsSlider = new Swiper('#testimonials-slider', {
+  autoplay: true,
+  pagination: {
+    el: '#testimonials-swiper-navigation',
+    clickable: true
+  },
+  slidesPerView: 1,
+  spaceBetween: 10,
+  loop: true,
+  breakpoints: {
+    1199: {
+      slidesPerView: 2
+    },
+  }
+});
