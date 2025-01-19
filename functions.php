@@ -55,6 +55,9 @@ function liquidoflife_setup()
 }
 add_action('after_setup_theme', 'liquidoflife_setup');
 
+// Disable automatic <p> and <br> tags in Contact Form 7
+add_filter('wpcf7_autop_or_not', '__return_false');
+
 function liquidoflife_scripts()
 {
 	// Get file paths

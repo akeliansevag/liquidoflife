@@ -71,3 +71,28 @@ body.open #mobile-menu-content {
 .testimonial h3 {
   @apply uppercase text-xl font-extrabold mb-4;
 }
+
+.contact-form input,
+.contact-form textarea {
+  @apply w-full rounded-md bg-white border border-[#D8D8D8] p-2;
+}
+
+.contact-form textarea {
+  @apply resize-none max-h-[130px];
+}
+
+.wpcf7-not-valid-tip {
+  @apply pl-1;
+}
+
+.contact-form input[type="submit"] {
+  @apply text-[#9F9F9F];
+}
+
+.wpcf7-response-output {
+  @apply !m-0 !border-none !p-0 text-center !pb-5;
+}
+
+.wpcf7-spinner {
+  @apply flex mx-auto my-2;
+}
