@@ -96,3 +96,17 @@ body.open #mobile-menu-content {
 .wpcf7-spinner {
   @apply flex mx-auto my-2;
 }
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: all 0.3s ease-out;
+}
+
+.faq-answer.active {
+  opacity: 1;
+  transform: translateY(0);
+}

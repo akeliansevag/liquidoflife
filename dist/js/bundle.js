@@ -1251,6 +1251,32 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/js/faq.js":
+/*!***********************!*\
+  !*** ./src/js/faq.js ***!
+  \***********************/
+/***/ (() => {
+
+document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', () => {
+      const answer = question.nextElementSibling;
+      const icon = question.querySelector('.faq-icon');
+      
+      // Toggle the answer
+      if (answer.style.maxHeight) {
+        answer.style.maxHeight = null;
+        icon.classList.remove('rotate-180');
+        answer.classList.remove('active');
+      } else {
+        answer.style.maxHeight = answer.scrollHeight + "px";
+        icon.classList.add('rotate-180');
+        answer.classList.add('active');
+      }
+    });
+  });
+
+/***/ }),
+
 /***/ "./src/js/menu.js":
 /*!************************!*\
   !*** ./src/js/menu.js ***!
@@ -11987,6 +12013,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./menu */ "./src/js/menu.js");
 /* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_menu__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _swiper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./swiper */ "./src/js/swiper.js");
+/* harmony import */ var _faq__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./faq */ "./src/js/faq.js");
+/* harmony import */ var _faq__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_faq__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 })();

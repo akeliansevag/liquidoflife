@@ -15,7 +15,7 @@
         <div>
             <h3 class="section-title uppercase">get in touch</h3>
             <h4 class="uppercase text-2xl">Liquid of Life LLC</h4>
-            <div class="mt-4 flex lg:items-center max-lg:flex-col flex-wrap gap-6 max-w-[500px]">
+            <div class="mt-4 flex lg:items-center max-lg:flex-col flex-wrap gap-4 max-w-[500px]">
                 <div class="flex items-center gap-1">
                     <a target="_blank" href="https://wa.me/97143607064">
                         <svg id="Group_466" data-name="Group 466" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.88" height="46.481" viewBox="0 0 45.88 46.481">
