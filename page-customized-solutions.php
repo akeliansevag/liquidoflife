@@ -40,7 +40,7 @@ $solutions = $query->posts;
                             );
                             ?>
                         </div>
-                        <div class="bg-secondary rounded-[65px] p-12">
+                        <div class="bg-secondary rounded-[65px] max-lg:p-8 lg:p-12">
                             <?php if ($one_column): ?>
                                 <h2 class="mb-6 text-2xl font-bold"><?= $solution->post_title; ?></h2>
                             <?php endif; ?>

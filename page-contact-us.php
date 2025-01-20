@@ -5,7 +5,7 @@
         <h2 class="text-center text-lg">Questions? Comments? Let us hear what you have to say and learn how we can assist you.</h2>
 
         <div class="grid lg:grid-cols-2 max-lg:grid-cols-1 gap-4 my-14">
-            <div class="bg-secondary rounded-3xl p-8 pb-0">
+            <div class="bg-secondary rounded-3xl max-lg:p-4 lg:p-8 pb-0">
                 <?= do_shortcode('[contact-form-7 id="a4fb7e2" title="Contact us" html_class="contact-form"]'); ?>
             </div>
             <div class="rounded-3xl overflow-hidden max-lg:aspect-square">

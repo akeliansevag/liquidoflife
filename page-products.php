@@ -30,7 +30,7 @@ $products = $query->posts;
                             );
                             ?>
                         </div>
-                        <div class="bg-secondary rounded-[65px] p-12">
+                        <div class="bg-secondary rounded-[65px] max-lg:p-8 lg:p-12">
                             <h2 class="mb-3 text-2xl font-bold"><?= $product->post_title; ?></h2>
                             <div>
                                 <?= $product->post_content; ?>
@@ -41,13 +41,13 @@ $products = $query->posts;
                     <?php if (get_field('additional_info', $product->ID) || get_field('add_on', $product->ID)): ?>
                         <div class="flex gap-4 max-lg:flex-col mt-4">
                             <?php if (get_field('additional_info', $product->ID)): ?>
-                                <div class="bg-secondary rounded-[65px] p-12 lg:w-1/3">
+                                <div class="bg-secondary rounded-[65px] max-lg:p-8 lg:p-12 lg:w-1/3">
                                     <?= get_field('additional_info', $product->ID); ?>
                                 </div>
                             <?php endif; ?>
 
                             <?php if (get_field('add_on', $product->ID)): ?>
-                                <div class="bg-secondary rounded-[65px] p-12 flex max-lg:flex-col max-lg:gap-8 lg:gap-24 lg:w-2/3">
+                                <div class="bg-secondary rounded-[65px] max-lg:p-8 lg:p-12 flex max-lg:flex-col max-lg:gap-8 lg:gap-24 lg:w-2/3">
                                     <h4 class="font-bold">Add On</h4>
                                     <?php $add_ons = get_field("add_on", $product->ID); ?>
                                     <?php foreach ($add_ons as $addon): ?>
