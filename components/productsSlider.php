@@ -31,7 +31,15 @@ $products = $query->posts;
                             </div>
                             <div class="py-4 px-5 flex max-xl:flex-col max-xl:gap-2 max-xl:text-center xl:justify-between xl:items-center">
                                 <h3 class="font-bold text-xl"><?= $product->post_title; ?></h3>
-                                <a class="text-primary" href="<?= get_permalink(get_page_by_path('products')) ?>">More info</a>
+                                <?php
+                                $link = get_permalink(get_page_by_path('products'));
+                                $target = "_self";
+                                if (get_field('external_link', $product->ID)) {
+                                    $link = get_field('external_link', $product->ID);
+                                    $target = "_blank";
+                                }
+                                ?>
+                                <a target="<?= $target ?>" class="text-primary" href="<?= $link ?>">More info</a>
                             </div>
                         </div>
 
