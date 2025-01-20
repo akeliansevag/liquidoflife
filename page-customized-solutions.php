@@ -26,7 +26,7 @@ $solutions = $query->posts;
 
                 <div>
                     <?php if (!$one_column): ?>
-                        <h2 class="lg:pl-10 mb-6 text-2xl font-bold"><?= $solution->post_title; ?></h2>
+                        <h2 class="lg:pl-10 mb-6 text-3xl font-bold"><?= $solution->post_title; ?></h2>
                     <?php endif; ?>
                     <div class="<?= $column_classes; ?>">
                         <div class="<?= $image_wrap_classes; ?>">
@@ -42,7 +42,7 @@ $solutions = $query->posts;
                         </div>
                         <div class="bg-secondary rounded-[65px] max-lg:p-8 lg:p-12">
                             <?php if ($one_column): ?>
-                                <h2 class="mb-6 text-2xl font-bold"><?= $solution->post_title; ?></h2>
+                                <h2 class="mb-6 text-3xl font-bold"><?= $solution->post_title; ?></h2>
                             <?php endif; ?>
                             <div>
                                 <?= $solution->post_content; ?>

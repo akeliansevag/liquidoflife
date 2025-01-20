@@ -2,7 +2,7 @@
     <div class="container h-full flex items-center justify-between">
         <div>
             <a href="<?= home_url() ?>">
-                <img class="max-lg:w-[200px]" src="<?= get_template_directory_uri() ?>/src/img/logo.webp" alt="Logo" width="282" height="65">
+                <img class="max-lg:w-[200px]" src="<?= get_template_directory_uri() ?>/src/img/logo2.webp" alt="Logo" width="282">
             </a>
         </div>
         <div>
@@ -18,7 +18,7 @@
         </div>
         <div class="flex items-center gap-3">
             <a class="max-lg:hidden" href="https://www.eaulawater.com/" target="_blank">
-                <img src="<?= get_template_directory_uri() ?>/src/img/eaula.webp" width="92" height="30" alt="eaula">
+                <img src="<?= get_template_directory_uri() ?>/src/img/eaula2.webp" width="92" alt="eaula">
             </a>
             <div id="burger-btn" class="lg:hidden cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
