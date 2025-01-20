@@ -9,7 +9,7 @@
                 <?= do_shortcode('[contact-form-7 id="a4fb7e2" title="Contact us" html_class="contact-form"]'); ?>
             </div>
             <div class="rounded-3xl overflow-hidden max-lg:aspect-square">
-                <iframe class="w-full h-full " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4555.839154873987!2d55.228654476232194!3d25.04933867780643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6ffb9746e87f%3A0x80dfa2853e254389!2sLiquid%20of%20Life!5e1!3m2!1sen!2slb!4v1737284242350!5m2!1sen!2slb" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d35241.86312194314!2d55.231229!3d25.049339!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6fe1f1ef851d%3A0x92e94ffeafc3cec8!2sControl%20Tower!5e1!3m2!1sen!2sus!4v1737396493370!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
         <div>
