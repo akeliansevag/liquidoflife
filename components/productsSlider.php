@@ -31,7 +31,7 @@ $products = $query->posts;
                             </div>
                             <div class="py-4 px-5 flex max-xl:flex-col max-xl:gap-2 max-xl:text-center xl:justify-between xl:items-center">
                                 <h3 class="font-bold text-xl"><?= $product->post_title; ?></h3>
-                                <a class="text-primary" href="<?= get_permalink($product->ID) ?>">More info</a>
+                                <a class="text-primary" href="<?= get_permalink(get_page_by_path('products')) ?>">More info</a>
                             </div>
                         </div>
 
