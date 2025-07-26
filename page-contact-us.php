@@ -17,7 +17,7 @@
             <h4 class="uppercase text-2xl">Liquid of Life LLC</h4>
             <div class="mt-4 flex lg:items-center max-lg:flex-col flex-wrap gap-4 max-w-[500px]">
                 <div class="flex items-center gap-1">
-                    <a target="_blank" href="https://wa.me/97143607064">
+                    <a target="_blank" href="tel:9714360706">
                         <svg id="Group_466" data-name="Group 466" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" viewBox="0 0 45.88 46.481">
                             <defs>
                                 <clipPath id="clip-path">
@@ -31,13 +31,13 @@
 
 
                     </a>
-                    <a target="_blank" href="https://wa.me/97143607064">
+                    <a target="_blank" href="tel:9714360706">
                         +97143607064
                     </a>
                 </div>
 
                 <div class="flex items-center gap-1">
-                    <a target="_blank" href="https://wa.me/97143607064">
+                    <a target="_blank" href="tel:9714360706">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" viewBox="0 0 45.88 46">
                             <defs>
                                 <clipPath>
@@ -56,7 +56,7 @@
                     </a>
                 </div>
                 <div class="flex items-center gap-1">
-                    <a target="_blank" href="https://wa.me/97143607064">
+                    <a target="_blank" href="tel:9714360706">
                         <svg id="Group_471" data-name="Group 471" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" viewBox="0 0 46 46">
                             <defs>
                                 <clipPath>
